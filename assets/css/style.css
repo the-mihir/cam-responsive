@@ -9,6 +9,11 @@
 
 /* Global Style */
 
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+
 
 a {
     text-decoration: none;
@@ -70,4 +75,17 @@ header{
 
 .active{
     color: #FF3E4A !important;
+}
+
+.banner{
+    min-height: 600px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 10px;
+    background: 
+    background-size: cover;
 }
