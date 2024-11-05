@@ -71,6 +71,19 @@
 }
 
 
+/* ========  Work Section =============== */
+
+.work_group{
+    flex-direction: column;
+    gap: 30px;
+}
+.showing_work{
+    grid-template-columns: repeat(1, 1fr);
+    width: 90%;
+    margin: 0;
+}
+
+
 
 
 
