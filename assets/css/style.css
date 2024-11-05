@@ -400,8 +400,112 @@ p.extra {
 }
 
 
+.chose_us{
+    padding: 80px 0;
+}
+
+.top_text{
+    color: #aaaaaa;
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.bottom_text{
+    color: #313131;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+}
 
 
+/* ====== Counter Section ======== */
+
+.counter{
+    min-height: 900px;
+    background-image: url('../images/thanlbline.jpg') ;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+
+.main_bttn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.miid_btn{
+    transform: translateY(400px) !important;
+    -webkit-transform: translateY(400px) !important;
+    -moz-transform: translateY(400px) !important;
+    -ms-transform: translateY(400px) !important;
+    -o-transform: translateY(400px) !important;
+}
+
+.numbers_count{
+    position: absolute ;
+    bottom: 0;
+    right: 200px;
+    min-height: 200px;
+    width: 600px;
+    background-color: #fff;
+}
+
+.statics{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.count_text{
+    color: #313131;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.count{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+    display: block;
+
+}
+
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 200px;
+    height: 200px;
+    background: rgb(255, 255, 255);
+}
+
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 200px;
+    height: 200px;
+    background: red;
+}
+.projects p{
+    color: #fff;
+}
+
+
+.testimonial{
+    min-height: 400px;
+    border: 1px solid olive;
+}
 
 
 
