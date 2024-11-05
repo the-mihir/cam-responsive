@@ -6,6 +6,10 @@
         display: none;
     }
 
+    .container{
+        width: 100%;
+    }
+
     .hero_section{
         display: inline-block;
     }
@@ -38,6 +42,38 @@
         text-align: center;
         padding: 0 20px;
     }
+
+
+    .service_group{
+        flex-direction: column;
+    }
+
+    .sub_heading h2{
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .service_list{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .service_check{
+       text-align: center;
+    }
+
+    .icon_bg{
+       margin: 0 auto;
+       transform: translateX(20%) ;
+       -webkit-transform: translateX(20%) ;
+       -moz-transform: translateX(20%) ;
+       -ms-transform: translateX(20%) ;
+       -o-transform: translateX(20%) ;
+}
+
+
+
+
+
  }
 
 
