@@ -2,9 +2,140 @@
 
 
 @media (max-width: 576px) { 
+
+
     .main_nav{
         display: none;
     }
+
+    .hero_body{
+        flex-direction: column;
+        align-items: start;
+    }
+    
+
+    .hero_section{
+        width: 576px;
+        gap: 0px;
+    }
+
+    .hero_img img{
+        width: 400px;
+        height: 400px;
+
+    }
+
+    .hero_text h1 {
+        font-size: 62px;
+        padding: 0px 10px;
+    }
+
+    .hero_text p{
+        width: 90%;
+        padding: 0 10px
+    }
+
+    .subscribe_form{
+        max-width: 400px;
+        padding:0 10px;
+    }
+
+    .subscribe_form button{
+        position: static;
+        margin-top:40px;
+    }
+    .padding{
+        padding: 0 10px;
+    }
+
+    .service_intro{
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .service_intro a{
+        width: 100% !important;
+    }
+
+    .services{
+        width: 576px;
+    }
+
+    .service_list{
+        flex-direction: column;
+    }
+
+    .work_list{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .work_img img{
+      width: 400px;
+    }
+
+    
+.work_img::after{
+    width: 300px;
+    height: 300px;
+    left: 2.7%;
+    top: 14.7%;
+}
+.choice-flex1 h2 {
+    font-size: 46px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    margin-bottom: -15px;
+}
+.numbers_count{
+    flex-direction: column;
+    right:18%;
+}
+
+.wordpress {
+    max-width: 576px;
+    flex-direction: column;
+}
+
+.hero_img2 img {
+    width: 100%;
+}
+
+.value h3{
+    width: 100%;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1.5 !important;
+}
+
+.blog-intro{
+    padding: 50px 10px;
+    flex-direction: column;
+    align-items: start;
+}
+
+.blog-body{
+    padding: 0px 10px;
+    flex-direction: column;
+    gap:10px;
+}
+
+.inner-content{
+    width: 576px;
+}
+
+.blog-card {
+    border: 1px solid gray;
+    position: relative;
+    z-index: 1;
+    padding: 35px 50px 115px;
+    background: #FFFFFF;
+    box-shadow: 0px 30px 70px rgba(31, 44, 64, 0.03);
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
  }
 
 

@@ -173,7 +173,6 @@ hero_section style start
 
 .subscribe_form{
     position: relative;
-    width: 100%;
     max-width: 500px;
     border-bottom: 20px;
 }
@@ -677,7 +676,11 @@ our blog section start here
 
 .blog-card:hover{
     cursor: pointer;
-    animation: comeforward 0.3s ease-in-out;
+    transform: translateY(-50px);
+    -webkit-transform: translateY(-50px);
+    -moz-transform: translateY(-50px);
+    -ms-transform: translateY(-50px);
+    -o-transform: translateY(-50px);
 }
 
 .link1{
